@@ -35,7 +35,7 @@ export const PRODUCTS = [
     },
     {
         image: winterImg,
-        title: 'Blue Chunky Beanie',
+        title: 'Blue Chunky Beanie Coat',
         category: 'Run, Dress',
         price: 25.00,
         wasPrice: 45.00,

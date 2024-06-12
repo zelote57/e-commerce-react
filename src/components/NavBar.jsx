@@ -1,6 +1,6 @@
-export default function NavBar({children}) {
+export default function NavBar({children, onClick}) {
     return (
-    <button class="cs-button" data-filter="one">
+    <button onClick={onClick} className="cs-button" data-filter="one">
         {children}
     </button>
     );

@@ -263,6 +263,12 @@
     width: 1.5rem;
     height: auto;
   }
+  #collection-1602 .cs-order-by {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: var(--secondary);
+  }
 }
 /* Tablet - 768px */
 @media only screen and (min-width: 48rem) {
