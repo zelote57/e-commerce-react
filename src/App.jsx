@@ -13,6 +13,7 @@ function App() {
 
   function orderByHandleClick(orderBy){
     setSelectedOrder(orderBy);
+    handledCollectionEffect();
   }
 
   let SORTED_PRODUCTS = PRODUCTS.slice();
@@ -27,6 +28,15 @@ function App() {
     case 'Best Seller':
       SORTED_PRODUCTS = PRODUCTS.slice();
       break;
+  }
+
+  function handledCollectionEffect() {
+    var element = document.getElementById("listing-items");
+    console.log(element.className);
+    element.classList.add("cs-hidden");
+    setTimeout(()=>{
+      element.classList.remove("cs-hidden")
+    }, 320)
   }
   
   return (
@@ -49,7 +59,7 @@ function App() {
             </div>
           </div>
           <div className="cs-listing-wrapper">
-            <div className="cs-listing" data-category="one">
+            <div id="listing-items" className="cs-listing">
               {SORTED_PRODUCTS.map((productItem) => (
                 <Item key={productItem.title} {...productItem} />
               ))}

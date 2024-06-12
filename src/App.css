@@ -105,7 +105,7 @@
     top: 0;
     left: 0;
     /* prevents the hidden galleries from overflowing the section, and makes a nice animations to transition to and from */
-    transform: scaleY(0) scaleX(0);
+    
     /* prevents the mouse from interacting with it */
     pointer-events: none;
   }
