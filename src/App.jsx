@@ -1,12 +1,6 @@
+import Header from "./components/Header";
+import NavBar from "./components/NavBar";
 import "./App.css";
-
-function NavBar({children}) {
-  return (
-    <button class="cs-button" data-filter="one">
-      {children}
-    </button>
-  );
-}
 
 function App() {
   return (
@@ -14,12 +8,16 @@ function App() {
       <section id="collection-1602">
         <div class="cs-container">
           <div class="cs-content">
-            <h2 class="cs-title">New Collection</h2>
+            <Header>New Collection</Header>
             <div class="cs-button-group">
             <NavBar>New Arrival</NavBar>
             <NavBar>Top Rating</NavBar>
             <NavBar>Best Seller</NavBar>
             </div>
+          </div>
+          <div class="cs-listing-wrapper">
+            <div class="cs-listing" data-category="one">
+            </div>            
           </div>
         </div>
       </section>
