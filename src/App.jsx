@@ -32,7 +32,6 @@ function App() {
 
   function handledCollectionEffect() {
     var element = document.getElementById("listing-items");
-    console.log(element.className);
     element.classList.add("cs-hidden");
     setTimeout(()=>{
       element.classList.remove("cs-hidden")
@@ -61,7 +60,7 @@ function App() {
           <div className="cs-listing-wrapper">
             <div id="listing-items" className="cs-listing">
               {SORTED_PRODUCTS.map((productItem) => (
-                <Item key={productItem.title} {...productItem} />
+                <Item key={productItem.title} {... productItem} />
               ))}
             </div>
           </div>

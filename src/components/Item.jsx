@@ -32,7 +32,7 @@ export default function Item({
           <picture className="cs-picture">
             <img src={image} className="cs-picture" />          
           </picture>          
-          {discount ? <span className="cs-offer">-{discount}%</span> : null}
+          {discount && <span className="cs-offer">-{discount}%</span>}
         </div>
         <div className="cs-details">
           <span className="cs-category">{category}</span>
