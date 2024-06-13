@@ -1,8 +1,9 @@
-# React + Vite
+# Ecommerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Template
+https://codestitch.app/app/dashboard/stitches/1602/rendered
 
-Currently, two official plugins are available:
+Template Code
+https://codestitch.app/app/dashboard/stitches/1602
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+All the rights of the templates files belongs to codestitch.app
