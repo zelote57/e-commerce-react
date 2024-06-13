@@ -41,8 +41,9 @@ export default function Item({
             <div className="cs-flex">
               <span className="cs-price">${price} </span>
               <span className="cs-was-price">${wasPrice}</span>
-              <div className="cs-stars"></div>
-              <Stars qty={stars} />
+              <div className="cs-stars">
+                <Stars qty={stars} />
+              </div>              
             </div>
             <button className="cs-buy">
               <img src={basketImg} className="cs-basket" />
